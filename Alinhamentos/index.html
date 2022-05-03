@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alinhamentos</title>
+  <style>
+    /*
+    Propriedades Flexbox
+
+    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    flex-flow: column wrap;
+    flex-flow: column nowrap;
+
+    Trabalham no eixo principal(horizontal) alinhando-os
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: flex-start;
+
+    Trabalham no eixo principal(vertical) alinhando-os
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    */
+
+    .container {
+      display: flex;
+      height: 500px;
+      background-color: #8B8682;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 10px;
+      border-radius: 18px;
+    }
+
+    .container div {
+      width: 100px;
+      height: 100px;
+      background-color: #0000cd;
+      margin: 10px;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 18px;
+    }
+
+    .container2 {
+      display: flex;
+      height: 500px;
+      background-color: #8B8682;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: space-around;
+      border-radius: 18px;
+    }
+
+    .container2 div {
+      width: 100px;
+      height: 100px;
+      background-color: #0000cd;
+      margin: 10px;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 18px;
+    }
+    /* 
+    align-self: flex-sart;
+    align-self: flex-end;
+    order: -1;
+    order: -2;
+    */
+  </style>
+</head>
+<body>
+  <h1>Alinhamentos | Parte 1</h1>
+  <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div> 
+  
+  <h1>Alinhamentos | Parte 2</h1>
+  <div class="container2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>9</div>
+    <div class="decima">10</div>
+    <div>11</div>
+    <div>12</div>
+    <div>13</div>
+    <div class="decima_quarta">14</div>
+    <div>15</div>
+</body>
+</html>

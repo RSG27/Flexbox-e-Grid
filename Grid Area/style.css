@@ -1,0 +1,23 @@
+.caixa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.item {
+  background-color: #1010f8;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.item1, .itemA {
+  /* A primeira coluna e a terceira coluna são referentes ao grid-row e a segunda e a quarta ao grid-column */
+  grid-area: 1 / 1 / 4 / 3;
+}
+
+.itemF {
+  /* A primeira coluna e a terceira coluna são referentes ao grid-row e a segunda e a quarta ao grid-column */
+  grid-area: 4 / 2 / 6 / 4;
+}

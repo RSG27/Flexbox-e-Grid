@@ -1,0 +1,52 @@
+.caixa {
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+}
+
+.item {
+  background-color: #2e36a7;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.item1-ouro {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.item3C {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.item-cavalo {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item-coruja {
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+.item-formiga {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 5;
+  grid-row-end: 7;
+}

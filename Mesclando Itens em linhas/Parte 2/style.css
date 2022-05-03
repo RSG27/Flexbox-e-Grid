@@ -1,0 +1,72 @@
+.caixa {
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:10px;
+}
+
+.item {
+  background-color: #2e36a7;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.item7 {
+  background-color: #44cf44;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item7G {
+  background-color: #44cf44;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item-leao, 
+.item7-safira, 
+.item7-alface, 
+.item-chile {
+  background-color: #44cf44;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  /* Posicionado na linha 5 ele não completa todas as linhas, ficando uma "sobra" */
+  grid-row-end: 6;
+}
+
+.item5-esmeralda {
+  background-color: #e41a1a;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item-brocolis {
+  background-color: #e41a1a;
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item-brasil {
+  background-color: #e41a1a;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}

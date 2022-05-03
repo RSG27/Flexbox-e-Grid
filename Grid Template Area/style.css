@@ -1,0 +1,134 @@
+.caixa {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+  ;
+}
+
+.caixa2 {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "itemA itemA"
+    "itemB itemC"
+    "itemD ."
+  ;
+}
+
+.caixa3 {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "leao leao"
+    "aguia coruja"
+    "macaco macaco"
+  ;
+}
+
+.caixa4 {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "ouro ouro prata"
+    "bronze cobalto prata"
+  ;
+}
+
+.caixa5 {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    /* Caso queiramos deixar um espaço entre os itens 3 e 2 colcamos um ponto entre eles, aonde o layout ficará da seguinte maneira:  
+    
+    "ferrari ferrari lamborghini"
+    "mustang . lamborghini"
+    "bmw bmw bmw"
+    */
+    "ferrari ferrari lamborghini"
+    "mustang mustang lamborghini"
+    "bmw bmw bmw"
+  ;
+}
+
+
+.item {
+  background-color: #1010f8;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.itemA {
+  grid-area: itemA;
+}
+.leao {
+  grid-area: leao;
+}
+.ouro {
+  grid-area: ouro;
+}
+.ferrari {
+  grid-area: ferrari;
+}
+
+
+.item2 {
+  grid-area: item2;
+}
+.itemB { 
+  grid-area: itemB;
+}
+.aguia {
+  grid-area: aguia;
+}
+.prata {
+  grid-area: prata;
+}
+.lamborghini {
+  grid-area: lamborghini;
+}
+
+
+
+
+.item3 {
+  grid-area: item3;
+}
+.itemC {
+  grid-area: itemC;
+}
+.coruja {
+  grid-area: coruja;
+}
+.bronze {
+  grid-area: bronze;
+}
+.mustang {
+  grid-area: mustang;
+}
+
+
+
+.item4 {
+  grid-area: item4;
+}
+.itemD {
+  grid-area: itemD;
+}
+.macaco {
+  grid-area: macaco;
+}
+.cobalto {
+  grid-area: cobalto;
+}
+.bmw {
+  grid-area: bmw;
+}
+
+

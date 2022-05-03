@@ -1,0 +1,15 @@
+.caixa {
+  display: grid;
+  /* Propriedade que organiza o Grid em colunas  com a unidade fr*/ 
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+.item {
+  background-color: #0000FF;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}

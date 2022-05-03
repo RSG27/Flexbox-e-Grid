@@ -1,0 +1,36 @@
+.caixa {
+  display: grid;
+  /* Propriedade que organiza o Grid em colunas repetindo 3x colunas de 100px e 2x colunas de 200px*/ 
+  grid-template-columns: repeat(3, 100px) repeat(2, 200px);
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+.caixa2 {
+  display: grid;
+  /* Propriedade que organiza o Grid em 3 colunas de 1fr e 1 de 200px*/ 
+  grid-template-columns: repeat(3, 1fr) 200px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+.caixa3 {
+  display: grid;
+  /* Propriedade que organiza o Grid em 2 colunas de 100px e de 200px respectivamente */
+  grid-template-columns: repeat(2, 100px 200px);
+  gap: 20px;
+}
+
+.caixa4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+}
+
+.item {
+  background-color: #0000FF;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}

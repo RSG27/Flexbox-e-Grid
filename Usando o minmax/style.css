@@ -1,0 +1,39 @@
+.caixa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 20px;
+}
+
+.caixa2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+}
+
+.caixa3 {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 300px));
+  grid-gap: 20px;
+}
+
+.caixa4 {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(200px, 300px));
+  grid-gap: 20px;
+}
+
+.caixa5 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: #5252b9;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}

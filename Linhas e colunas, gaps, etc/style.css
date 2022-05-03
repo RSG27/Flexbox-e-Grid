@@ -1,0 +1,77 @@
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa {
+  display: grid;
+  /* Propriedade que organiza o Grid em colunas repetindo 3x o 1fr */ 
+  grid-template-columns: repeat(3, 1fr);
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa2 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: 100px 100px 100px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa3 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: 100px 200px 100px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa4 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: auto 200px 100px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa5 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: auto 200px 100px;
+  grid-template-rows: 100px 200px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa6 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: auto 200px 100px;
+  grid-template-rows: 100px 200px 50px 300px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+
+/* Aqui definimos o grid na classe caixa, pois queríamos aplicar a regra nela toda */
+.caixa7 {
+  display: grid;
+  /* Proriedade que organiza o Grid em colunas */ 
+  grid-template-columns: auto 200px 100px;
+  grid-template-rows: 200px;
+  /* Aplica o espaçamento entre linhas e colunas na caixa*/ 
+  gap: 20px;
+}
+
+
+/* Caso quisermos aplicar a regra somente nessa classe aplicamos o grid nela */
+.item {
+  background-color: #a4a4ce;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}

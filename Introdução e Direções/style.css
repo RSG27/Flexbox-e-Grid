@@ -1,0 +1,90 @@
+.container {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.container_reverse {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
+
+.container2 {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.container2_reverse {
+  background-color: #DDDDDD;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 10px;
+}
+
+
+.container div,
+.container_reverse div,
+.container2 div,
+.container2_reverse div {
+  background-color: orange;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.div1, 
+.div2,
+.div3 {
+  flex: 1;
+  background-color: #ffa500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.div3, 
+.div4 {
+  flex: 1;
+  background-color: #ffa500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.div5 {
+  flex: 2;
+  background-color: #ffa500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.div6, 
+.div7 {
+  flex: 1;
+  background-color: #ffa500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.div8 {
+  flex: 3;
+  background-color: #ffa500;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+

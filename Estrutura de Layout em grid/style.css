@@ -1,0 +1,40 @@
+.container {
+  background-color: #ccc;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+    "header header header header"
+    "menu content content content"
+    "ad content content content"
+    "footer footer footer footer"
+  ;
+}
+
+.item {
+  background-color: rgba(241, 54, 110, 0.925);
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+  font-family: fantasy;
+}
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: menu;
+}
+section {
+  grid-area: content;
+}
+footer {
+  grid-area: footer;
+}
+.ad {
+  grid-area: ad;
+}
+

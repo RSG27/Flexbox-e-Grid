@@ -1,0 +1,126 @@
+.caixa {
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.caixa2 {
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  justify-content: start;
+}
+
+.caixa3 {
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  justify-content: end;
+}
+
+.caixa4 {
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  justify-content: space-around;
+}
+
+.caixa5 {
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  justify-content: space-between;
+}
+
+.caixa6 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.caixa7 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  align-items: end;
+}
+
+.caixa8 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  align-items: start;
+}
+
+.caixa9 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.caixa10 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: 100px;
+  grid-gap: 20px;
+  align-content: center;
+}
+
+.caixa11 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: 100px;
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.caixa12 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: 100px;
+  grid-gap: 20px;
+  justify-content: end;
+  align-content: end;
+}
+
+.caixa13 {
+  height: 800px;
+  background-color: #CCC;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: 100px;
+  grid-gap: 20px;
+  justify-content: end;
+  align-content: end;
+}
+
+.item {
+  background-color: #5252b9;
+  border-radius: 10px;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+}
